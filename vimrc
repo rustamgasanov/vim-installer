@@ -124,7 +124,7 @@ highlight StatusLineNC ctermbg=236 ctermfg=12
 " status line on current pane
 highlight StatusLine   ctermbg=236 ctermfg=2
 " instant search highlight
-highlight IncSearch    ctermbg=0   ctermfg=3
+highlight IncSearch    ctermbg=0   ctermfg=6
 " search results highlight
 highlight Search       ctermbg=0   ctermfg=3
 " visual mode highlight
@@ -141,7 +141,7 @@ if version >= 700
   au InsertLeave * hi StatusLine ctermbg=240 ctermfg=2
 endif
 
-
+" >>> MISC <<<
 " automatically removing all trailing whitespace
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
