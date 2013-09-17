@@ -108,7 +108,8 @@ catch " /^Vim:E121/
 endtry
 
 " >>> HIGHLIGHTING <<<
-" (2 green, 3 yellow, 12 blue, 236 background)
+" DARK  0 black 1 red 2 green 3 yellow 4 blue 5 magenta 6 cyan 7 white
+" LIGHT 8       9     10      11       12     13        14     15
 highlight clear SignColumn
 " split lines color
 highlight VertSplit    ctermbg=12
@@ -129,10 +130,16 @@ highlight IncSearch    ctermbg=0   ctermfg=6
 highlight Search       ctermbg=0   ctermfg=3
 " visual mode highlight
 highlight Visual       ctermbg=3   ctermfg=0
+" tab line(behind tabs)
+highlight TabLineFill  ctermbg=0   ctermfg=0
+" inactive tab
+highlight TabLine      ctermbg=0   ctermfg=15
+" active tab
+highlight TabLineSel   ctermbg=0   ctermfg=2
 " popup menu(ctrl+p)
-highlight Pmenu        ctermbg=236   ctermfg=12
+highlight Pmenu        ctermbg=236 ctermfg=12
 " popup menu selected item
-highlight PmenuSel     ctermbg=236   ctermfg=2
+highlight PmenuSel     ctermbg=236 ctermfg=2
 " check spelling errors
 highlight SpellBad     ctermbg=0   ctermfg=1
 " highlight the status bar when in insert mode
