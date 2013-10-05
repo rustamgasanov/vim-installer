@@ -77,16 +77,16 @@ if has("statusline") && !&cp
   set laststatus=2  " always show the status bar
 
   " Start the status line
-
-  set statusline=%{hostname()}: 
-  set statusline+=%f\ %m\ %r
+  " set statusline=%{hostname()}: 
+  set statusline=%f\ %m\ %r
 
   " Add rvm
-  if exists('$rvm_path')
-    set statusline+=%{rvm#statusline()}
-  endif
-  " Add fugitive
-  set statusline+=%{fugitive#statusline()}
+  " if exists('$rvm_path')
+  "   set statusline+=%{rvm#statusline()}
+  " endif
+
+  " Add fugitive(branch)
+  " set statusline+=%{fugitive#statusline()}
 
   " display a warning if &paste is set
   set statusline+=%#error#
@@ -94,10 +94,11 @@ if has("statusline") && !&cp
   set statusline+=%*
 
   " Finish the statusline
-  set statusline+=Line:%l/%L[%p%%]
+  " set statusline+=Line:%l/%L[%p%%]
+  set statusline+=Line:%l/
   set statusline+=Col:%v
-  set statusline+=Buf:#%n
-  set statusline+=[%b][0x%B]
+  " set statusline+=Buf:#%n
+  " set statusline+=[%b][0x%B]
 endif
 
 " >>> COLORSCHEME <<<
