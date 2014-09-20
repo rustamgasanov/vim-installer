@@ -29,10 +29,16 @@ Bundle 'tpope/vim-haml'
 Bundle 'slim-template/vim-slim'
 " json syntax highlighter
 Bundle 'leshill/vim-json'
+" coffeescript syntax highlighter
+Bundle 'kchmck/vim-coffee-script'
 " monit syntax highlighter
 Bundle 'tmatilai/vim-monit'
 " base16-railscasts color scheme
 Bundle 'chrishunt/color-schemes'
+" tree view
+Bundle 'scrooloose/nerdtree'
+" search in files
+Bundle 'wincent/Command-T'
 
 filetype plugin indent on
 syntax on " show syntax highlighting
@@ -72,6 +78,21 @@ set showcmd " display actions in bottom line
 set fillchars+=vert:\  " remove pipes from split lines
 set backspace=indent,eol,start " set backspace to work like in other apps
 set background=dark
+" toggle paste mode on F2
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+" toggle number/nonumber on F12
+function! NumberNo()
+  set nonumber
+  map <F12> :call NumberYes()<CR>
+endfunction
+
+function! NumberYes()
+  set number
+  map <F12> :call NumberNo()<CR>
+endfunction
+map <F12> :call NumberNo()<CR>
 " statusline
 if has("statusline") && !&cp
   set laststatus=2  " always show the status bar
@@ -144,6 +165,7 @@ highlight PmenuSel     ctermbg=236 ctermfg=2
 " check spelling errors
 highlight SpellBad     ctermbg=0   ctermfg=1
 " highlight the status bar when in insert mode
+
 if version >= 700
   au InsertEnter * hi StatusLine ctermbg=2 ctermfg=235
   au InsertLeave * hi StatusLine ctermbg=240 ctermfg=2
