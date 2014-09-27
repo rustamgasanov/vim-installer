@@ -193,7 +193,6 @@ endfunc
 
 nnoremap <c-l> :bp <cr>
 let mapleader = "\\"
-map <leader>l :bp<esc>
 
 " local config
 if filereadable(".vimrc.local")
