@@ -200,7 +200,6 @@ if filereadable(".vimrc.local")
 endif
 
 " Rails shortcuts
-command! Rapplication :e config/application.rb
 command! Rroutes :e config/routes.rb
 command! Rschema :e db/schema.rb
 command! Rgemfile :e Gemfile
