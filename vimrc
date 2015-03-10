@@ -155,9 +155,9 @@ highlight Visual       ctermbg=3   ctermfg=0
 " tab line(behind tabs)
 highlight TabLineFill  ctermbg=0   ctermfg=0
 " inactive tab
-highlight TabLine      ctermbg=0   ctermfg=15
+highlight TabLine      ctermbg=0   ctermfg=2
 " active tab
-highlight TabLineSel   ctermbg=0   ctermfg=2
+highlight TabLineSel   ctermbg=2   ctermfg=0
 " popup menu(ctrl+p)
 highlight Pmenu        ctermbg=236 ctermfg=4
 " popup menu selected item
