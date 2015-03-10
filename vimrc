@@ -138,14 +138,14 @@ highlight VertSplit    ctermbg=4
 " used only when colorcolumn is active
 " highlight ColorColumn  ctermbg=237
 " numbers color
-highlight LineNr       ctermbg=236 ctermfg=4
+highlight LineNr       ctermbg=0   ctermfg=4
 " used only when cursorline is active
 " highlight CursorLineNr ctermbg=236 ctermfg=240
 " highlight CursorLine   ctermbg=236
 " status line on inactive pane
-highlight StatusLineNC ctermbg=236 ctermfg=4
+highlight StatusLineNC ctermbg=0   ctermfg=4
 " status line on current pane
-highlight StatusLine   ctermbg=236 ctermfg=2
+highlight StatusLine   ctermbg=0   ctermfg=2
 " instant search highlight
 highlight IncSearch    ctermbg=2   ctermfg=0
 " search results highlight
@@ -167,8 +167,8 @@ highlight SpellBad     ctermbg=0   ctermfg=1
 " highlight the status bar when in insert mode
 
 if version >= 700
-  au InsertEnter * hi StatusLine ctermbg=2 ctermfg=235
-  au InsertLeave * hi StatusLine ctermbg=240 ctermfg=2
+  au InsertEnter * hi StatusLine ctermbg=2 ctermfg=0
+  au InsertLeave * hi StatusLine ctermbg=0 ctermfg=2
 endif
 
 " >>> MISC <<<
