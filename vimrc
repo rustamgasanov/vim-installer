@@ -131,23 +131,19 @@ endtry
 
 " >>> HIGHLIGHTING <<<
 " DARK  0 black 1 red 2 green 3 yellow 4 blue 5 magenta 6 cyan 7 white
-" LIGHT 8       9     10      11       33     13        14     15
-" Print colors:
-" for i in {0..255} ; do
-"  printf "\x1b[38;5;${i}mcolour${i}\n"
-" done
+" LIGHT 8       9     10      11       12     13        14     15
 highlight clear SignColumn
 " split lines color
-highlight VertSplit    ctermbg=33
+highlight VertSplit    ctermbg=12
 " used only when colorcolumn is active
 " highlight ColorColumn  ctermbg=237
 " numbers color
-highlight LineNr       ctermbg=236 ctermfg=33
+highlight LineNr       ctermbg=236 ctermfg=12
 " used only when cursorline is active
 " highlight CursorLineNr ctermbg=236 ctermfg=240
 " highlight CursorLine   ctermbg=236
 " status line on inactive pane
-highlight StatusLineNC ctermbg=236 ctermfg=33
+highlight StatusLineNC ctermbg=236 ctermfg=12
 " status line on current pane
 highlight StatusLine   ctermbg=236 ctermfg=2
 " instant search highlight
@@ -163,7 +159,7 @@ highlight TabLine      ctermbg=0   ctermfg=15
 " active tab
 highlight TabLineSel   ctermbg=0   ctermfg=2
 " popup menu(ctrl+p)
-highlight Pmenu        ctermbg=236 ctermfg=33
+highlight Pmenu        ctermbg=236 ctermfg=12
 " popup menu selected item
 highlight PmenuSel     ctermbg=236 ctermfg=2
 " check spelling errors
