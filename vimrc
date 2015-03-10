@@ -147,11 +147,11 @@ highlight StatusLineNC ctermbg=236 ctermfg=4
 " status line on current pane
 highlight StatusLine   ctermbg=236 ctermfg=2
 " instant search highlight
-highlight IncSearch    ctermbg=3   ctermfg=0
+highlight IncSearch    ctermbg=2   ctermfg=0
 " search results highlight
-highlight Search       ctermbg=3   ctermfg=0
+highlight Search       ctermbg=2   ctermfg=0
 " visual mode highlight
-highlight Visual       ctermbg=3   ctermfg=0
+highlight Visual       ctermbg=2   ctermfg=0
 " tab line(behind tabs)
 highlight TabLineFill  ctermbg=0   ctermfg=0
 " inactive tab
