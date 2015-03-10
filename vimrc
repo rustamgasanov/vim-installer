@@ -34,7 +34,7 @@ Bundle 'kchmck/vim-coffee-script'
 " monit syntax highlighter
 Bundle 'tmatilai/vim-monit'
 " base16-railscasts color scheme
-Bundle 'chrishunt/color-schemes'
+Bundle 'rustamagasanov/color-schemes'
 " tree view
 Bundle 'scrooloose/nerdtree'
 " search in files
