@@ -131,25 +131,25 @@ endtry
 
 " >>> HIGHLIGHTING <<<
 " DARK  0 black 1 red 2 green 3 yellow 4 blue 5 magenta 6 cyan 7 white
-" LIGHT 8       9     10      11       12     13        14     15
+" LIGHT 8       9     10      11       74     13        14     15
 highlight clear SignColumn
 " split lines color
-highlight VertSplit    ctermbg=12
+highlight VertSplit    ctermbg=74
 " used only when colorcolumn is active
 " highlight ColorColumn  ctermbg=237
 " numbers color
-highlight LineNr       ctermbg=236 ctermfg=12
+highlight LineNr       ctermbg=236 ctermfg=74
 " used only when cursorline is active
 " highlight CursorLineNr ctermbg=236 ctermfg=240
 " highlight CursorLine   ctermbg=236
 " status line on inactive pane
-highlight StatusLineNC ctermbg=236 ctermfg=12
+highlight StatusLineNC ctermbg=236 ctermfg=74
 " status line on current pane
 highlight StatusLine   ctermbg=236 ctermfg=2
 " instant search highlight
-highlight IncSearch    ctermbg=0   ctermfg=6
+highlight IncSearch    ctermbg=3   ctermfg=0
 " search results highlight
-highlight Search       ctermbg=0   ctermfg=3
+highlight Search       ctermbg=3   ctermfg=0
 " visual mode highlight
 highlight Visual       ctermbg=3   ctermfg=0
 " tab line(behind tabs)
@@ -159,7 +159,7 @@ highlight TabLine      ctermbg=0   ctermfg=15
 " active tab
 highlight TabLineSel   ctermbg=0   ctermfg=2
 " popup menu(ctrl+p)
-highlight Pmenu        ctermbg=236 ctermfg=12
+highlight Pmenu        ctermbg=236 ctermfg=74
 " popup menu selected item
 highlight PmenuSel     ctermbg=236 ctermfg=2
 " check spelling errors
