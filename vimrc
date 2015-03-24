@@ -37,8 +37,6 @@ Bundle 'tmatilai/vim-monit'
 Bundle 'rustamagasanov/color-schemes'
 " tree view
 Bundle 'scrooloose/nerdtree'
-" search in files
-Bundle 'wincent/Command-T'
 
 filetype plugin indent on
 syntax on " show syntax highlighting
