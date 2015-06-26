@@ -53,7 +53,7 @@ if has("multi_byte")
 endif
 set autoindent " copy indent from prev line
 set tabstop=2 " set indent to 2 spaces
-set shiftwidth=2
+set shiftwidth=2 " set '>>' and '<<' spacing indent
 set expandtab " use spaces instead of tabs
 set nocompatible " don't need to be compatible with old vim
 set showmatch " show bracket matches
