@@ -173,6 +173,9 @@ endif
 " automatically removing all trailing whitespace
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
+" automatically load .vimrc source when saved
+autocmd BufWritePost .vimrc source $MYVIMRC
+
 " file types autodetection
 autocmd BufNewFile,BufRead *.txt setfiletype text
 autocmd BufNewFile,BufRead Gemfile,Guardfile,Vagrantfile,Procfile,Rakefile setfiletype ruby
@@ -201,6 +204,3 @@ endif
 command! Rroutes :e config/routes.rb
 command! Rschema :e db/schema.rb
 command! Rgemfile :e Gemfile
-
-" automatically load .vimrc source when saved
-autocmd BufWritePost .vimrc source $MYVIMRC
