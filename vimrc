@@ -37,6 +37,8 @@ Bundle 'tmatilai/vim-monit'
 Bundle 'rustamagasanov/color-schemes'
 " tree view
 Bundle 'scrooloose/nerdtree'
+" rubocop
+Bundle 'ngmy/vim-rubocop'
 
 filetype plugin indent on
 syntax on " show syntax highlighting
