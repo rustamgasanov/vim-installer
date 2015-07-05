@@ -2,7 +2,15 @@
 
 Vim distribution for Ruby/Rails development.
 
-Plugins included:
+## Installation:
+
+```
+git clone git@github.com:rustamagasanov/vim-installer.git
+cd vim-installer
+./install.sh
+```
+
+## Plugins included:
 
   -  [gmarik/vundle](https://github.com/gmarik/Vundle.vim) - Vim bundler
   -  [tpope/vim-rails](https://github.com/tpope/vim-rails) - Syntax highlighting, :A, :R, :E, etc features
