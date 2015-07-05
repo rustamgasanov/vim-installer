@@ -13,14 +13,8 @@ Bundle 'tpope/vim-rails'
 Bundle 'tComment'
 " textmate snippets features (<tab> autocomplete)
 Bundle 'msanders/snipmate.vim'
-" git features with (G...)
-Bundle 'tpope/vim-fugitive'
-" rvm features with (Rvm...)
-Bundle 'tpope/vim-rvm'
 " syntax checker features
 Bundle 'scrooloose/syntastic'
-" ruby syntax highlighter
-Bundle 'timcharper/textile.vim'
 " nginx syntax highlighter
 Bundle 'jinfield/vim-nginx'
 " haml, sass, scss syntax highlighter
