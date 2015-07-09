@@ -25,6 +25,8 @@ Bundle 'slim-template/vim-slim'
 Bundle 'leshill/vim-json'
 " coffeescript syntax highlighter
 Bundle 'kchmck/vim-coffee-script'
+" eco files support
+Bundle 'AndrewRadev/vim-eco'
 " monit syntax highlighter
 Bundle 'tmatilai/vim-monit'
 " base16-railscasts color scheme

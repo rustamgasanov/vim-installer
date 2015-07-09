@@ -22,6 +22,7 @@ cd vim-installer
   -  [slim-template/vim-slim](https://github.com/slim-template/vim-slim) - Slim syntax highlighter
   -  [leshill/vim-json](https://github.com/leshill/vim-json) - JSON syntax highlighter
   -  [kchmck/vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - Coffeescript support(syntax, indenting, compiling)
+  -  [AndrewRadev/vim-eco](https://github.com/AndrewRadev/vim-eco) - .eco syntax support
   -  [tmatilai/vim-monit](https://github.com/tmatilai/vim-monit) - Monit syntax highlighter
   -  [rustamagasanov/color-schemes](https://github.com/rustamagasanov/color-schemes) - Base16-railscasts(used) and other color schemas
   -  [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree view support(:NERDTree)
