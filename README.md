@@ -8,6 +8,11 @@ Vim distribution for Ruby/Rails development.
 git clone git@github.com:rustamagasanov/vim-installer.git
 cd vim-installer
 ./install.sh
+
+# additional steps for command-t plugin
+cd ~/.vim/bundle/command-t/ruby/command-t
+ruby extconf.rb
+make
 ```
 
 ## Plugins included:
@@ -27,3 +32,4 @@ cd vim-installer
   -  [rustamagasanov/color-schemes](https://github.com/rustamagasanov/color-schemes) - Base16-railscasts(used) and other color schemas
   -  [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree view support(:NERDTree)
   -  [ngmy/vim-rubocop](https://github.com/ngmy/vim-rubocop) - RuboCop code analyzer, requires installed gem(:RuboCop)
+  -  [wincent/Command-T](https://github.com/wincent/Command-T) - Leader+T quick search through files

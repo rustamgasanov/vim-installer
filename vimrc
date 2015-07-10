@@ -35,6 +35,12 @@ Bundle 'rustamagasanov/color-schemes'
 Bundle 'scrooloose/nerdtree'
 " rubocop
 Bundle 'ngmy/vim-rubocop'
+" fast search
+" installation:
+" cd ~/.vim/bundle/command-t/ruby/command-t
+" ruby extconf.rb
+" make
+Bundle 'wincent/Command-T'
 
 filetype plugin indent on
 syntax on " show syntax highlighting
@@ -192,6 +198,7 @@ endfunc
 
 nnoremap <c-l> :bp <cr>
 let mapleader = "\\"
+let g:vimrubocop_config = '/Users/rustam/Projects/cubits/guidelines/.rubocop.yml'
 
 " local config
 if filereadable(".vimrc.local")
