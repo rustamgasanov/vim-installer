@@ -1,6 +1,6 @@
 # Vim installer
 
-Vim distribution for Ruby/Rails development.
+Vim distribution for Ruby(Rails).
 
 ## Installation:
 
