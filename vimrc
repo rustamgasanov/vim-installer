@@ -42,6 +42,8 @@ Bundle 'ngmy/vim-rubocop'
 " make
 Bundle 'wincent/Command-T'
 
+let g:vimrubocop_config = '.rubocop.yml'
+
 filetype plugin indent on
 syntax on " show syntax highlighting
 
@@ -198,7 +200,6 @@ endfunc
 
 nnoremap <c-l> :bp <cr>
 let mapleader = "\\"
-let g:vimrubocop_config = '/Users/rustam/Projects/cubits/guidelines/.rubocop.yml'
 
 " local config
 if filereadable(".vimrc.local")
