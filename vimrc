@@ -33,6 +33,8 @@ Bundle 'tmatilai/vim-monit'
 Bundle 'rustamagasanov/color-schemes'
 " tree view
 Bundle 'scrooloose/nerdtree'
+" html5 syntax highlighter
+Bundle 'othree/html5.vim'
 " rubocop
 Bundle 'ngmy/vim-rubocop'
 " fast search
@@ -43,6 +45,7 @@ Bundle 'ngmy/vim-rubocop'
 Bundle 'wincent/Command-T'
 
 let g:vimrubocop_config = '.rubocop.yml'
+let NERDTreeShowHidden=1
 
 filetype plugin indent on
 syntax on " show syntax highlighting

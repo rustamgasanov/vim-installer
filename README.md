@@ -31,5 +31,6 @@ make
   -  [tmatilai/vim-monit](https://github.com/tmatilai/vim-monit) - Monit syntax highlighter
   -  [rustamagasanov/color-schemes](https://github.com/rustamagasanov/color-schemes) - Base16-railscasts(used) and other color schemas
   -  [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree view support(:NERDTree)
+  -  [othree/html5.vim](https://github.com/othree/html5.vim) - HTML5 syntax highlighter
   -  [ngmy/vim-rubocop](https://github.com/ngmy/vim-rubocop) - RuboCop code analyzer, requires installed gem(:RuboCop)
   -  [wincent/Command-T](https://github.com/wincent/Command-T) - Leader+T quick search through files
