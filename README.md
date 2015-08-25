@@ -34,3 +34,4 @@ make
   -  [othree/html5.vim](https://github.com/othree/html5.vim) - HTML5 syntax highlighter
   -  [ngmy/vim-rubocop](https://github.com/ngmy/vim-rubocop) - RuboCop code analyzer, requires installed gem(:RuboCop)
   -  [wincent/Command-T](https://github.com/wincent/Command-T) - Leader+T quick search through files
+  -  [burnettk/vim-angular](https://github.com/burnettk/vim-angular) - Angular support

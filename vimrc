@@ -43,6 +43,8 @@ Bundle 'ngmy/vim-rubocop'
 " ruby extconf.rb
 " make
 Bundle 'wincent/Command-T'
+" angular support
+Bundle 'burnettk/vim-angular'
 
 let g:vimrubocop_config = '.rubocop.yml'
 let NERDTreeShowHidden=1
