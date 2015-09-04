@@ -35,3 +35,4 @@ make
   -  [ngmy/vim-rubocop](https://github.com/ngmy/vim-rubocop) - RuboCop code analyzer, requires installed gem(:RuboCop)
   -  [wincent/Command-T](https://github.com/wincent/Command-T) - Leader+T quick search through files
   -  [burnettk/vim-angular](https://github.com/burnettk/vim-angular) - Angular support
+  -  [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir) - Elixir support

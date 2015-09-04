@@ -45,6 +45,8 @@ Bundle 'ngmy/vim-rubocop'
 Bundle 'wincent/Command-T'
 " angular support
 Bundle 'burnettk/vim-angular'
+" elixir support
+Bundle 'elixir-lang/vim-elixir'
 
 let g:vimrubocop_config = '.rubocop.yml'
 let NERDTreeShowHidden=1
