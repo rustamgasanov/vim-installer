@@ -184,7 +184,7 @@ endif
 
 " >>> MISC <<<
 " automatically removing all trailing whitespace
-autocmd BufWritePre *.rb,*.sass,*.eco,*.erb,*.coffee :%s/\s\+$//e
+autocmd BufWritePre *.rb,*.ex,*.exs,*.sass,*.eco,*.erb,*.coffee :%s/\s\+$//e
 
 " automatically load .vimrc source when saved
 autocmd BufWritePost .vimrc source $MYVIMRC
