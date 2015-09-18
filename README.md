@@ -23,7 +23,8 @@ make
   -  [msanders/snipmate](https://github.com/msanders/snipmate.vim) - Textmate snippets features (<tab> autocomplete)
   -  [scrooloose/syntastic](https://github.com/scrooloose/syntastic) - Syntax checker
   -  [jinfield/vim-nginx](https://github.com/jinfield/vim-nginx) - Nginx syntax highlighter
-  -  [tpope/vim-haml](https://github.com/tpope/vim-haml) - Haml, Sass, SCSS syntax highlighter
+  -  [tpope/vim-haml](https://github.com/tpope/vim-haml) - Haml syntax highlighter
+  -  [cakebaker/scss-syntax.vim](https://github.com/cakebaker/scss-syntax.vim) - Scss syntax highlighter
   -  [slim-template/vim-slim](https://github.com/slim-template/vim-slim) - Slim syntax highlighter
   -  [leshill/vim-json](https://github.com/leshill/vim-json) - JSON syntax highlighter
   -  [kchmck/vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - Coffeescript support(syntax, indenting, compiling)

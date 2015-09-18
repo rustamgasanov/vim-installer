@@ -17,10 +17,12 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'scrooloose/syntastic'
 " nginx syntax highlighter
 Bundle 'jinfield/vim-nginx'
-" haml, sass, scss syntax highlighter
+" haml syntax highlighter
 Bundle 'tpope/vim-haml'
 " slim syntax highlighter
 Bundle 'slim-template/vim-slim'
+" scss syntax highlighter
+Bundle 'cakebaker/scss-syntax.vim'
 " json syntax highlighter
 Bundle 'leshill/vim-json'
 " coffeescript syntax highlighter
