@@ -95,6 +95,8 @@ set background=dark
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+" open nerdtree on F3
+map <F3> :NERDTree<CR>
 " toggle number/nonumber on F12
 function! NumberNo()
   set nonumber
