@@ -37,3 +37,4 @@ make
   -  [wincent/Command-T](https://github.com/wincent/Command-T) - Leader+T quick search through files
   -  [burnettk/vim-angular](https://github.com/burnettk/vim-angular) - Angular support
   -  [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir) - Elixir support
+  -  [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) - Git support

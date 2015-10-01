@@ -49,6 +49,8 @@ Plugin 'wincent/Command-T'
 Plugin 'burnettk/vim-angular'
 " elixir support
 Plugin 'elixir-lang/vim-elixir'
+" git support
+Plugin 'tpope/vim-fugitive'
 
 let g:vimrubocop_config = '.rubocop.yml'
 let NERDTreeShowHidden=1
