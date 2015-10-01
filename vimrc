@@ -6,49 +6,49 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " vim bundler
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 " rails features with (R...)
-Bundle 'tpope/vim-rails'
+Plugin 'tpope/vim-rails'
 " commenting features (gc gcc)
-Bundle 'tComment'
+Plugin 'tComment'
 " textmate snippets features (<tab> autocomplete)
-Bundle 'msanders/snipmate.vim'
+Plugin 'msanders/snipmate.vim'
 " syntax checker features
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 " nginx syntax highlighter
-Bundle 'jinfield/vim-nginx'
+Plugin 'jinfield/vim-nginx'
 " haml syntax highlighter
-Bundle 'tpope/vim-haml'
+Plugin 'tpope/vim-haml'
 " slim syntax highlighter
-Bundle 'slim-template/vim-slim'
+Plugin 'slim-template/vim-slim'
 " scss syntax highlighter
-Bundle 'cakebaker/scss-syntax.vim'
+Plugin 'cakebaker/scss-syntax.vim'
 " json syntax highlighter
-Bundle 'leshill/vim-json'
+Plugin 'leshill/vim-json'
 " coffeescript syntax highlighter
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'kchmck/vim-coffee-script'
 " eco files support
-Bundle 'AndrewRadev/vim-eco'
+Plugin 'AndrewRadev/vim-eco'
 " monit syntax highlighter
-Bundle 'tmatilai/vim-monit'
+Plugin 'tmatilai/vim-monit'
 " base16-railscasts color scheme
-Bundle 'rustamagasanov/color-schemes'
+Plugin 'rustamagasanov/color-schemes'
 " tree view
-Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 " html5 syntax highlighter
-Bundle 'othree/html5.vim'
+Plugin 'othree/html5.vim'
 " rubocop
-Bundle 'ngmy/vim-rubocop'
+Plugin 'ngmy/vim-rubocop'
 " fast search
 " installation:
 " cd ~/.vim/bundle/command-t/ruby/command-t
 " ruby extconf.rb
 " make
-Bundle 'wincent/Command-T'
+Plugin 'wincent/Command-T'
 " angular support
-Bundle 'burnettk/vim-angular'
+Plugin 'burnettk/vim-angular'
 " elixir support
-Bundle 'elixir-lang/vim-elixir'
+Plugin 'elixir-lang/vim-elixir'
 
 let g:vimrubocop_config = '.rubocop.yml'
 let NERDTreeShowHidden=1
