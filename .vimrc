@@ -4,7 +4,6 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-" set rtp+={repository_root}/powerline/bindings/vim
 call vundle#begin()
 
 " vim bundler
@@ -59,7 +58,7 @@ Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 call vundle#end()
 
 let g:airline_powerline_fonts = 1
-" let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1 " Automatically displays all buffers when there's only one tab open.
 
 let g:vimrubocop_config = '.rubocop.yml'
 let NERDTreeShowHidden=1
@@ -119,6 +118,11 @@ function! NumberYes()
   map <F12> :call NumberNo()<CR>
 endfunction
 map <F12> :call NumberNo()<CR>
+
+" g[bB] in command mode switch to the next/prev. buffer
+map gb :bnext<cr>
+map gB :bprev<cr>
+
 " statusline
 " if has("statusline") && !&cp
 "   set laststatus=2  " always show the status bar
