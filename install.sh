@@ -7,6 +7,6 @@ git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.v
 ln -nfs $ROOT_PATH/.vimrc $HOME/.vimrc
 vim +BundleInstall +qall
 
-# mkdir -p $HOME/.vim/colors
-# cp $HOME/.vim/bundle/color-schemes/railscasts/base16-railscasts.vim $HOME/.vim/colors/
+mkdir -p $HOME/.vim/colors
+cp $HOME/.vim/bundle/color-schemes/railscasts/base16-railscasts.vim $HOME/.vim/colors/
 
