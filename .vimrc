@@ -105,6 +105,7 @@ set background=dark
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h12
 " open nerdtree on F3
 map <F3> :NERDTree<CR>
 " toggle number/nonumber on F12
