@@ -124,83 +124,12 @@ map <F12> :call NumberNo()<CR>
 map gb :bnext<cr>
 map gB :bprev<cr>
 
-" statusline
-" if has("statusline") && !&cp
-"   set laststatus=2  " always show the status bar
-" 
-"   " Start the status line
-"   " set statusline=%{hostname()}: 
-"   set statusline=%f\ %m\ %r
-" 
-"   " Add rvm
-"   " if exists('$rvm_path')
-"   "   set statusline+=%{rvm#statusline()}
-"   " endif
-" 
-"   " Add fugitive(branch)
-"   " set statusline+=%{fugitive#statusline()}
-" 
-"   " display a warning if &paste is set
-"   set statusline+=%#error#
-"   set statusline+=%{&paste?'[paste]':''}
-"   set statusline+=%*
-" 
-"   " Finish the statusline
-"   " set statusline+=Line:%l/%L[%p%%]
-"   set statusline+=Line:%l/
-"   set statusline+=Col:%v
-"   " set statusline+=Buf:#%n
-"   " set statusline+=[%b][0x%B]
-" endif
-
 " >>> COLORSCHEME <<<
 try
   colorscheme base16-railscasts
 catch " /^Vim:E121/
   colorscheme default
 endtry
-
-" " >>> HIGHLIGHTING <<<
-" " DARK  0 black 1 red 2 green 3 yellow 4 blue 5 magenta 6 cyan 7 white
-" " LIGHT 8       9     10      11       74     13        14     15
-" highlight clear SignColumn
-" " split lines color
-" highlight VertSplit    ctermbg=4
-" " used only when colorcolumn is active
-" " highlight ColorColumn  ctermbg=237
-" " numbers color
-" highlight LineNr       ctermbg=0   ctermfg=4
-" " used only when cursorline is active
-" " highlight CursorLineNr ctermbg=236 ctermfg=240
-" " highlight CursorLine   ctermbg=236
-" " status line on inactive pane
-" highlight StatusLineNC ctermbg=0   ctermfg=4
-" " status line on current pane
-" highlight StatusLine   ctermbg=0   ctermfg=2
-" " instant search highlight
-" highlight IncSearch    ctermbg=2   ctermfg=0
-" " search results highlight
-" highlight Search       ctermbg=2   ctermfg=0
-" " visual mode highlight
-" highlight Visual       ctermbg=2   ctermfg=0
-" " tab line(behind tabs)
-" highlight TabLineFill  ctermbg=0   ctermfg=0
-" " inactive tab
-" highlight TabLine      ctermbg=0   ctermfg=2
-" " active tab
-" highlight TabLineSel   ctermbg=2   ctermfg=0
-" " popup menu(ctrl+p)
-" highlight Pmenu        ctermbg=236 ctermfg=4
-" " popup menu selected item
-" highlight PmenuSel     ctermbg=236 ctermfg=2
-" " check spelling errors
-" highlight SpellBad     ctermbg=0   ctermfg=1
-" " highlight the status bar when in insert mode
-" 
-" if version >= 700
-"   au InsertEnter * hi StatusLine ctermbg=2 ctermfg=0
-"   au InsertLeave * hi StatusLine ctermbg=0 ctermfg=2
-" endif
 
 " >>> MISC <<<
 " automatically removing all trailing whitespace
@@ -213,7 +142,6 @@ autocmd BufWritePost .vimrc source $MYVIMRC
 autocmd BufNewFile,BufRead *.txt setfiletype text
 autocmd BufNewFile,BufRead Gemfile,Guardfile,Vagrantfile,Procfile,Rakefile setfiletype ruby
 autocmd FileType text,markdown,html,xhtml,eruby,asc,slim setlocal wrap linebreak nolist
-
 
 " show syntax highlighting groups for word under cursor
 " nmap <C-S-P> :call <SID>SynStack()<CR>
