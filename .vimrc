@@ -104,6 +104,7 @@ set background=dark
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
+set autoread
 
 " macvim
 set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h12
