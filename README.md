@@ -10,7 +10,7 @@ cd vim-installer
 ./install.sh
 
 # additional steps for command-t plugin
-cd ~/.vim/bundle/command-t/ruby/command-t
+cd ~/.vim/bundle/Command-T/ruby/command-t
 ruby extconf.rb
 make
 ```
