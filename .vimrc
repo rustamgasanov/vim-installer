@@ -66,16 +66,15 @@ let NERDTreeShowHidden=1
 filetype plugin indent on
 syntax on " show syntax highlighting
 
+" macvim
+set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h12
+"set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline\ RegularForPowerline:h12
+set guioptions-=L " remove scrollbars
+set guioptions-=r " remove scrollbars
+set encoding=utf-8
+set fileencoding=utf-8
+
 " >>> SETTINGS <<<
-" http://serverfault.com/questions/130632/problems-with-vim-locale-as-non-root-user-on-solaris
-if has("multi_byte")
-  if &termencoding == ""
-    let &termencoding = &encoding
-  endif
-  set encoding=utf-8
-  setglobal fileencoding=utf-8
-  set fileencodings=utf-8
-endif
 set autoindent " copy indent from prev line
 set tabstop=2 " set indent to 2 spaces
 set shiftwidth=2 " set '>>' and '<<' spacing indent
@@ -90,7 +89,7 @@ set ttimeoutlen=100 " decrease timeout for faster insert with 'O'
 set ruler " show row and column in footer
 set scrolloff=2 " minimum lines above/below cursor
 set laststatus=2 " always show status bar
-set listchars=tab:»·,nbsp:·,trail:·,extends:>,precedes:< " show extra space characters
+set listchars=tab:»·,nbsp:·,trail:·,extends:>,precedes:<
 set list " display unprintable characters
 set wildmenu " enable bash style tab completion
 set wildmode=list:longest,full
@@ -105,11 +104,6 @@ nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
 set showmode
 set autoread
-
-" macvim
-set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h12
-set guioptions-=L " remove scrollbars
-set guioptions-=r " remove scrollbars
 
 " open nerdtree on F3
 map <F3> :NERDTree<CR>
@@ -187,3 +181,5 @@ endif
 command! Rroutes :e config/routes.rb
 command! Rschema :e db/schema.rb
 command! Rgemfile :e Gemfile
+
+au BufRead,BufNewFile *.es6 setfiletype javascript

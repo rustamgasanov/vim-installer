@@ -15,6 +15,8 @@ ruby extconf.rb
 make
 ```
 
+This vim distribution uses Powerline fonts. To get sample font and instructions for installation of it check [my dot-files](https://github.com/rustamagasanov/dot-files)
+
 ## Plugins included:
 
   -  [gmarik/vundle](https://github.com/gmarik/Vundle.vim) - Vim bundler
