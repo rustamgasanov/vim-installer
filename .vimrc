@@ -38,8 +38,6 @@ Plugin 'rustamagasanov/color-schemes'
 Plugin 'scrooloose/nerdtree'
 " html5 syntax highlighter
 Plugin 'othree/html5.vim'
-" rubocop
-Plugin 'ngmy/vim-rubocop'
 " fast search
 " installation:
 " cd ~/.vim/bundle/command-t/ruby/command-t
@@ -50,8 +48,6 @@ Plugin 'wincent/Command-T'
 Plugin 'burnettk/vim-angular'
 " elixir support
 Plugin 'elixir-lang/vim-elixir'
-" git support
-Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
