@@ -48,10 +48,17 @@ Plugin 'wincent/Command-T'
 Plugin 'burnettk/vim-angular'
 " elixir support
 Plugin 'elixir-lang/vim-elixir'
-Plugin 'bling/vim-airline'
-Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'vim-airline/vim-airline'
+" Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()
+
+" let s:airline_a_normal   = [ '#00005f' , '#dfff00' , 17  , 190 ]
+" let s:airline_b_normal   = [ '#ffffff' , '#444444' , 255 , 238 ]
+" let s:airline_c_normal   = [ '#9cffd3' , '#202020' , 85  , 234 ]
+" let g:airline#themes#dark#palette.normal =
+" airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal,
+" s:airline_c_normal)
 
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1 " Automatically displays all buffers when there's only one tab open.
@@ -128,20 +135,32 @@ catch " /^Vim:E121/
   colorscheme default
 endtry
 
+" 16 boolean
+
+" 4 blue tmux line
+" 9 orange
+" 10 green
+" 11 yellow
+" 12 13 white
 highlight clear SignColumn
+" 236 - black behind line numbers, 240 grey line numbers
 highlight VertSplit    ctermbg=236
-highlight ColorColumn  ctermbg=237
 highlight LineNr       ctermbg=236 ctermfg=240
+" 237 - grey, line numbers
 highlight CursorLineNr ctermbg=236 ctermfg=240
 highlight CursorLine   ctermbg=236
-highlight StatusLineNC ctermbg=238 ctermfg=0
-highlight StatusLine   ctermbg=240 ctermfg=12
-highlight IncSearch    ctermbg=3   ctermfg=1
-highlight Search       ctermbg=1   ctermfg=3
-highlight Visual       ctermbg=3   ctermfg=0
-highlight Pmenu        ctermbg=240 ctermfg=12
-highlight PmenuSel     ctermbg=3   ctermfg=1
-highlight SpellBad     ctermbg=0   ctermfg=1
+" 0 - lightblack main background, 3 - yellow, visual select background
+" 236 black behind line numbers
+" 131 -indian red
+highlight IncSearch    ctermbg=196   ctermfg=236
+highlight Search       ctermbg=9   ctermfg=236
+highlight Visual       ctermbg=9   ctermfg=236
+" highlight Pmenu        ctermbg=240 ctermfg=12
+" highlight PmenuSel     ctermbg=3   ctermfg=1
+" highlight SpellBad     ctermbg=0   ctermfg=1
+" highlight StatusLineNC ctermbg=238 ctermfg=0
+" highlight StatusLine   ctermbg=240 ctermfg=4
+" highlight ColorColumn  ctermbg=237
 
 " >>> MISC <<<
 " automatically removing all trailing whitespace
