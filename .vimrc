@@ -16,40 +16,19 @@ Plugin 'tComment'
 Plugin 'msanders/snipmate.vim'
 " syntax checker features
 Plugin 'scrooloose/syntastic'
-" nginx syntax highlighter
-Plugin 'jinfield/vim-nginx'
-" haml syntax highlighter
-Plugin 'tpope/vim-haml'
-" slim syntax highlighter
-Plugin 'slim-template/vim-slim'
-" scss syntax highlighter
-Plugin 'cakebaker/scss-syntax.vim'
 " json syntax highlighter
 Plugin 'leshill/vim-json'
-" coffeescript syntax highlighter
-Plugin 'kchmck/vim-coffee-script'
-" eco files support
-Plugin 'AndrewRadev/vim-eco'
-" monit syntax highlighter
-Plugin 'tmatilai/vim-monit'
 " base16-railscasts color scheme
 Plugin 'rustamagasanov/color-schemes'
 " tree view
 Plugin 'scrooloose/nerdtree'
+" quick search
+Plugin 'kien/ctrlp.vim'
 " html5 syntax highlighter
 Plugin 'othree/html5.vim'
-" fast search
-" installation:
-" cd ~/.vim/bundle/command-t/ruby/command-t
-" ruby extconf.rb
-" make
-Plugin 'wincent/Command-T'
-" angular support
-Plugin 'burnettk/vim-angular'
 " elixir support
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'rustamagasanov/vim-airline'
-" Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 call vundle#end()
 
