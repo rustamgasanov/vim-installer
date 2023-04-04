@@ -1,6 +1,15 @@
+# DEPRECATED ⛔️
+
+See instead:
+
+- https://github.com/rustamgasanov/dot-files
+- https://github.com/rustamgasanov/nvim-installer
+
+---
+
 # Vim installer
 
-Vim distribution for Ruby(Rails).
+Vim distribution for Ruby.
 
 ## Installation:
 
