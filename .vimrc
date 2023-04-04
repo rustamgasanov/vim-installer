@@ -19,7 +19,7 @@ Plugin 'scrooloose/syntastic'
 " json syntax highlighter
 Plugin 'leshill/vim-json'
 " base16-railscasts color scheme
-Plugin 'rustamagasanov/color-schemes'
+Plugin 'rustamgasanov/color-schemes'
 " tree view
 Plugin 'scrooloose/nerdtree'
 " quick search
@@ -28,7 +28,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'othree/html5.vim'
 " elixir support
 Plugin 'elixir-lang/vim-elixir'
-Plugin 'rustamagasanov/vim-airline'
+Plugin 'rustamgasanov/vim-airline'
 
 call vundle#end()
 
